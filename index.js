@@ -4,7 +4,10 @@ const github = require('@actions/github');
 core.setOutput("version", "76.76.76");
 const eventPayload = JSON.stringify(github.context.payload, undefined, 2);
 core.exportVariable('mikeVersion', 'auxx76');
-console.log('The event payload: ${eventPayload}');
+console.log('The event payload: ' + eventPayload);
+
+const projectName = core.getInput('project-name');
+console.log('$$$$ Current Version:  ' + projectName);
 
 // core.run(async tools =>{
 //     const pkg = tools.getPackageJSON();
