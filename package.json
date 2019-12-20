@@ -1,0 +1,24 @@
+{
+  "name": "Build-Parameters",
+  "version": "1.0.0",
+  "description": "Auxxiliary build parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuxxMike/Build-Parameters.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AuxxMike/Build-Parameters/issues"
+  },
+  "homepage": "https://github.com/AuxxMike/Build-Parameters#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^2.0.0"
+  }
+}

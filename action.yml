@@ -1,0 +1,16 @@
+name: 'Build Variables'
+description: 'Gets and sets variables used in the build pipeline.'
+inputs:
+  project-name:
+    description: 'Name of the project'
+    required: false
+  current-version:
+    description: 'Previously assigned version.'
+    required: false
+outputs:
+  version:
+    description: 'The new version.'
+  
+runs:
+  using: 'node12'  
+  main: 'dist/index.js'
